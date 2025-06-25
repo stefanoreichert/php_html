@@ -1,0 +1,58 @@
+/* ejemplofunciones.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+form p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 1rem;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0,123,255,0.3);
+    transition: background-color 0.25s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
